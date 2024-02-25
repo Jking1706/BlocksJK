@@ -11,5 +11,5 @@ numero_3=float(input("Intoducir el cuarto numero:\n"))
 #Utilizamos la función max()
 mayor= max(numero,numero_1,numero_2,numero_3)
 
-#Mostramos los resultados
-print("El valor más alto es: ",int(mayor))
+#Mostramos los resultados con int para eliminar las decimas
+print("El valor más alto es:",int(mayor))
